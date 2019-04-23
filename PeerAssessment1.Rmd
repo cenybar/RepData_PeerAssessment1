@@ -1,0 +1,15 @@
+# COURSE PROJECT 1
+==================
+
+
+
+## Loading and processing the data
+
+```{r}
+# Load the data
+
+data <- read.csv(unz("./activity.zip","activity.csv"), header = TRUE, sep = ",")
+
+```
+
+## 
